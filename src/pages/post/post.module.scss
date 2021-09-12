@@ -1,1 +1,35 @@
-// TODO
+
+.post_content {
+  margin: 2rem 0 6rem 0;
+
+  h2 {
+    margin: 2rem 0;
+  }
+}
+
+.postcard_metadata {
+  display: grid;
+  grid-auto-flow: column;
+  align-content: center;
+  justify-content: start;
+  align-items: center;
+  padding-top: .8rem;
+
+  color: var(--info);
+
+  small {
+    margin: 0 .5rem;
+    padding-right: 1rem;
+  }
+}
+
+.postlist {
+  a {
+    display: block;
+
+    & + a {
+      padding-top: 2rem;
+      border-top: 1px;
+    }
+  }
+}

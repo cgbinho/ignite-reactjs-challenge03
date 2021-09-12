@@ -1,1 +1,36 @@
-// TODO
+.container {
+  @media ( max-width: 1080px){
+    html {
+      font-size: 93,75%
+    }
+  }
+
+  @media ( max-width: 750px){
+    html {
+      font-size: 87,5%
+    }
+  }
+}
+
+.content {
+  max-width: 720px;
+  margin: 4rem auto 0;
+  padding: 0 2rem;
+}
+
+.button__load_more {
+  margin-top: 2rem;
+  color: var(--highlight_670);
+  font-weight: 600;
+  cursor: pointer;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  outline:none;
+
+  &:hover{
+    color: var(--highlight_570);
+  }
+}
+

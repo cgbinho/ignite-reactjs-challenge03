@@ -1,1 +1,22 @@
 // TODO
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.postcard_container {
+  display: grid;
+  grid-auto-flow: column;
+  align-content: center;
+  justify-content: start;
+  align-items: center;
+  padding-top: .8rem;
+
+  color: var(--info);
+
+  small {
+    margin: 0 .5rem;
+    padding-right: 1rem;
+  }
+}

@@ -4,4 +4,37 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --white: hsl(0, 0%, 100%);
+  --body: hsl(0, 0%, 84%);
+  --info: hsl(0, 0%, 73%);
+  --heading: hsl(0, 0%, 97%);
+  --highlight_670: hsl(328, 100%, 67%);
+  --highlight_570: hsl(328, 100%, 57%);
+  --background: hsl(220, 15%, 12%);
+}
+
+
+body {
+  background: var(--background);
+  color: var(--body);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.4;
+  color: var(--heading);
+}
+
+strong {
+  color: var(--heading);
+}
+
+body, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+a {
+  color: var(--body);
+  text-decoration: none;
+  cursor: pointer;
+}
