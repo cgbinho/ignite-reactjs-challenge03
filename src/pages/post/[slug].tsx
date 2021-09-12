@@ -63,7 +63,7 @@ export default function Post({ post }: PostProps) {
   return (
     <div className={commonStyles.container}>
       <Header />
-      <figure>
+      <figure className={postStyles.banner}>
         <img src={post.data.banner.url} alt="" />
       </figure>
       <main className={commonStyles.content}>
